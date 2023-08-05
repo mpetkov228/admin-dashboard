@@ -83,7 +83,7 @@
 }
 
 .search-bar {
-    padding: 20px 30px;
+    padding: 20px 40px;
     display: grid;
     grid-template-columns: 25px 1fr;
     column-gap: 10px;
@@ -129,7 +129,7 @@
 .greeting {
     display: grid;
     grid-template-columns: 70px 1fr;
-    padding-left: 30px;
+    padding-left: 40px;
     margin-bottom: 15px;
 }
 
@@ -152,6 +152,25 @@
 .large-greeting {
     font-size: 20px;
     font-weight: bold;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    margin-bottom: 15px;
+    column-gap: 30px;
+}
+
+.buttons button {
+    height: 35px;
+    padding: 5px;
+    align-self: center;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(34, 148, 255);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 
