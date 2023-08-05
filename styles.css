@@ -126,6 +126,34 @@
     font-weight: bold;
 }
 
+.greeting {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+
+.greeting img {
+    height: 60px;
+    align-self: center;
+}
+
+.greeting div {
+    padding-top: 10px;
+}
+
+.small-greeting {
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 4px;
+    margin-bottom: 6px;
+}
+
+.large-greeting {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 
 .main {
     padding: 25px 30px 25px 20px;
