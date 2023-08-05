@@ -97,10 +97,33 @@
 .search-bar input {
     border: none;
     height: 28px;
-    width: 80%;
+    width: 85%;
     align-self: center;
     background-color: rgb(223, 223, 223);
     border-radius: 25px;
+    padding-left: 10px;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 30px 40px 1fr;
+    column-gap: 10px;
+}
+
+.profile .notifications {
+    height: 20px;
+    align-self: center;
+}
+
+.profile .small-profile-img {
+    height: 40px;
+    align-self: center;
+}
+
+.profile p {
+    align-self: center;
+    padding-left: 15px;
+    font-weight: bold;
 }
 
 
